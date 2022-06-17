@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="/bootstrap.min.js"></script>
+    <script src="./jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+    
+        <nav class="navbar navbar-expand-lg bg-info" >
+            <div class="container-fluid">
+              <img src="./images/logo-kerala.png" alt="Logo" style="width:60px;" class="rounded-pill">
+              <a class="navbar-brand" href="index.html">KERALA TOURISM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="districts.html">DISTRICTS</a>
+                  <a class="nav-link" href="#">EXPLORATIONS</a>
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                  <a class="nav-link active" href="signup.html">SIGNUP</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+      <form >
+        <div class="mb-3">
+            <label for="exampleInputname1" class="form-label">Name</label>
+            <input type="name" class="form-control" id="exampleInputPassword1">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        </div>
+        <div class="mb-3">
+            <label for="exampleinputcontactnumber1" class="form-label">Contact Number</label>
+            <input type="contactnumber" class="form-control" id="exampleinputcontactnumber1">
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputC-Password1" class="form-label">Confirm Password</label>
+          <input type="C-password" class="form-control" id="exampleInputC-Password1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">By joining,I agree to the Terms and Privacy Policy</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </body>
+</html>
